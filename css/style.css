@@ -16,6 +16,7 @@
   --prtf-color-pic-text3: #434455;
   --prtf-color-btn: #e7e9fc;
   --color-sect-five: #2e2f42;
+  --modal-color-title: #2e2f42;
 }
 /*Global styles*/
 body {
@@ -284,13 +285,15 @@ img {
   margin: 24px 100px;
 }
 .modal-title {
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  /* color: #2e2f42; */
+  color: var(--modal-color-title);
   text-align: Center;
   vertical-align: Top;
   /* letter-spacing: 2%; */
   margin-bottom: 16px;
+  letter-spacing: 0.02em;
 }
 .modal-input {
   width: 100%;
