@@ -284,6 +284,7 @@ img {
 .svg-sect-two-two {
   margin: 24px 100px;
 }
+/* ****************** */
 .modal-title {
   font-weight: 500;
   font-size: 16px;
@@ -301,7 +302,6 @@ img {
   border-radius: 4px;
   background-color: transparent;
   margin-bottom: 8px;
-  /* gap: 8px; */
   border: 1px solid rgba(46, 47, 66, 0.4);
   padding-left: 38px;
   outline: transparent;
@@ -329,6 +329,13 @@ img {
 }
 .mod-cont-ico-input {
   position: relative;
+}
+/* .mod-cont-ico-input-coment {
+  width: 360px;
+  height: 138px;
+} */
+.modal-input-text {
+  height: 138px;
 }
 
 .modal-input-ico {
