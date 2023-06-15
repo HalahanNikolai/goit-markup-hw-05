@@ -416,9 +416,14 @@
                 </div>
                 <div class="modal-field modal-field-edit">
                     <label class="modal-label" for="user-comment">Comment</label>
-                    <div class="mod-cont-ico-input-coment">
-                        <input type="text" id="user-comment" class="modal-input modal-input-text"
-                            placeholder="Text input">
+                    <textarea class="modal-textarea" name="user-comment" id="user-comment" cols="30" rows="10"
+                        placeholder="Text input"></textarea>
+
+                    <div class="modal-check-box">
+                        <input class="modal-check-box-input visually-hidden" id="user-privacy" type="checkbox"
+                            value="true" name="user-privacy">
+                        <label for="user-privacy" class="modal-check-box-label">I accept the terms and conditions of the
+                            <span class="modal-label-spn"></span></label>
                     </div>
                 </div>
                 <button type="submit">Send</button>
