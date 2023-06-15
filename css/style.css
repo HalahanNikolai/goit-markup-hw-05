@@ -310,6 +310,12 @@ img {
 .modal-input:focus {
   border-color: #4d5ae5;
 }
+
+.modal-input:focus + .modal-input-ico {
+  /* stroke: ; */
+  fill: #4d5ae5;
+}
+
 .modal-field {
   margin-bottom: 8px;
 }
