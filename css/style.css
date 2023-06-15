@@ -303,6 +303,15 @@ img {
   margin-bottom: 8px;
   /* gap: 8px; */
 }
+.mod-cont-name {
+  margin-bottom: 8px;
+}
+.modal-label {
+  font-size: 12px;
+  color: #8e8f99;
+  margin-bottom: 4px;
+  display: inline-block;
+}
 /************************************************************************************************************* */
 .prtf-btn-container {
   display: flex;
