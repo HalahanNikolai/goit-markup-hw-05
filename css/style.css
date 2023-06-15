@@ -346,8 +346,7 @@ img {
   resize: none;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-textarea;
-:focus {
+.modal-textarea :focus {
   border-color: #4d5ae5;
 }
 .modal-check-box {
@@ -377,6 +376,8 @@ img {
   justify-content: center;
   fill: transparent;
 }
+.modal-span-svg {
+}
 
 .modal-textarea :focus {
   border-color: #4d5ae5;
@@ -401,7 +402,28 @@ img {
   transform: translateY(-50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
+.modal-btn-send {
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+  background-color: #4d5ae5;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+  /* border-radius: 4px;  */
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 /************************************************************************************************************* */
 .prtf-btn-container {
   display: flex;
