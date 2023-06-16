@@ -364,6 +364,18 @@ img {
   letter-spacing: 0.04em;
   color: var(--modal-color-label);
 }
+.modal-check-box-label span {
+  width: 20px;
+  height: 20px;
+  stroke: rgba(46, 47, 66, 0.4);
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+
+.modal-check-box-label a {
+  color: #4d5ae5;
+  text-decoration: underline;
+}
 
 .modal-label-spn {
   width: 16px;
