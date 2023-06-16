@@ -355,29 +355,68 @@ img {
   margin-bottom: 24px;
 }
 
-.modal-check-box-input {
+.input-check {
+  margin-bottom: 24px;
 }
 
-.modal-check-box-label {
+.check-text {
+  /* font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: var(--modal-color-label); */
+
+  /* align-items: Left;
+  vertical-align: Top; */
+  /* ----------------- */
+  font-weight: 400;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: var(--modal-color-label);
+  cursor: pointer;
+  align-items: center;
 }
-.modal-check-box-label span {
-  width: 20px;
+/* !!!!!!!!!!!!!! */
+.check-text span {
+  /* width: 20px;
   height: 20px;
   stroke: rgba(46, 47, 66, 0.4);
   border: 1px solid rgba(0, 0, 0, 0.2);
-  border-radius: 4px;
+  border-radius: 4px; */
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  fill: transparent;
+  width: 16px;
+  height: 16px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 2px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-check-box-label a {
+.check-text a {
+  /* color: #4d5ae5;
+  text-decoration: underline; */
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.04em;
+  text-decoration-line: underline;
   color: #4d5ae5;
+  padding-left: 8px;
   text-decoration: underline;
 }
 
-.modal-label-spn {
+.input-check:checked + .check-text span {
+  /* background-color: #31d0aa;
+  border: none; */
+  background: #404bbf;
+  border: none;
+  fill: #f4f4fd;
+}
+/* .modal-label-spn {
   width: 16px;
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
@@ -389,7 +428,8 @@ img {
   align-items: center;
   justify-content: center;
   fill: transparent;
-}
+} */
+
 .modal-span-svg {
 }
 
