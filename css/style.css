@@ -534,6 +534,7 @@ img {
 }
 .subscrb-btn-button-svg {
   margin-left: 16px;
+  fill: #ffffff;
 }
 /************************************************************************************************************* */
 .prtf-btn-container {
@@ -852,7 +853,7 @@ footer {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: calc(24 / 14);
   letter-spacing: 0.03em;
 
   color: rgba(255, 255, 255, 0.6);
